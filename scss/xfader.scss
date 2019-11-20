@@ -1,0 +1,53 @@
+/////////////////
+// xfader.scss //
+/////////////////
+
+.xfader {
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style-type: none; 
+    }
+
+    .item {
+        position: absolute; 
+        top: 0; 
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: opacity 2s linear;
+        opacity: 0; 
+        z-index: 1;
+
+        // Next 4 lines for demo only
+        text-align: center;
+        padding-top: 150px;
+        font-size: 150px;
+        color: #fff;
+    }
+
+    .currentFade {
+        opacity: 1;
+    }
+
+    // Example slides
+
+    #slide-0 {
+        background: $purple;
+    }
+
+    #slide-1 {
+        background: $blue;
+    }
+
+    #slide-2 {
+        background: $green;
+    }
+}
