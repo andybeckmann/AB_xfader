@@ -1,9 +1,8 @@
-/////////////////
-/// main.scss ///
-/////////////////
+// Variables
+@use 'components/AB_colors' as colors;
 
-// Universal styles
-*{
+// Universal
+* {
 	box-sizing: border-box;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -13,7 +12,10 @@ body {
 	font-family: sans-serif;
 }
 
-img{
+img {
 	max-width: 100%;
 	height: auto;
 }
+
+// AB_xfader
+@use 'components/AB_xfader';
