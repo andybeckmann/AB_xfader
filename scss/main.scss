@@ -1,21 +1,5 @@
-// Variables
-@use 'components/AB_colors' as colors;
-
-// Universal
-* {
-	box-sizing: border-box;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-body {
-	padding: 20px 35px;
-	font-family: sans-serif;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-}
-
 // AB_xfader
 @use 'components/AB_xfader';
+
+// Global styles
+@use 'global';
