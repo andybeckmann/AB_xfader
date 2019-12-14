@@ -51,5 +51,5 @@ module.exports = function(grunt) {
 
     require('load-grunt-tasks')(grunt);
  
-    grunt.registerTask('default', ['sass', 'cssmin', 'watch']);
+    grunt.registerTask('default', ['dart-sass', 'cssmin', 'watch']);
 };
