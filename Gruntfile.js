@@ -8,10 +8,10 @@ module.exports = function(grunt) {
 
         // -- SASS Compilation
 
-        sass:{
-            dist:{
+        'dart-sass': {
+            target: {
                 files: {
-                    "css/main.css": "scss/import.scss"
+                    'css/main.css': 'scss/main.scss'
                 }
             }
         },
