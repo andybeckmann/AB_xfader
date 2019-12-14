@@ -1,8 +1,12 @@
 /**
- * AB_xfader.scss v1.0.0
- * https://github.com/andybeckmann/AB_xfader/scss/components/AB_xfader.scss
+ * AB_xfader.scss v1.1.0
+ * https://github.com/andybeckmann/AB_xfader/blob/master/scss/components/AB_xfader.scss
  */
 
+// AB_colors
+@use 'AB_colors' as colors;
+
+// AB_xfader
 .xfader {
     width: 100%;
     height: 500px;
