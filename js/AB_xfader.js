@@ -1,6 +1,7 @@
-///////////////
-// xfader.js //
-///////////////
+/**
+ * AB_xfader.js v1.0.0
+ * https://github.com/andybeckmann/AB_xfader/blob/master/js/AB_xfader.js
+ */
 
 (function() {
     // Delay set in seconds
