@@ -1,6 +1,6 @@
 /**
- * AB_xfader.js
- * https://github.com/andybeckmann/AB_xfader/blob/master/js/AB_xfader.js
+ * AB_xfader
+ * version: 1.0.0
  */
 
 (function() {
