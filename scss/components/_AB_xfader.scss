@@ -3,9 +3,6 @@
  * https://github.com/andybeckmann/AB_xfader/blob/master/scss/components/AB_xfader.scss
  */
 
-// AB_colors
-@use 'AB_colors' as colors;
-
 // AB_xfader
 .xfader {
     width: 100%;
@@ -42,17 +39,4 @@
         opacity: 1;
     }
 
-    // Example slides
-
-    #slide-0 {
-        background: colors.$purple;
-    }
-
-    #slide-1 {
-        background: colors.$blue;
-    }
-
-    #slide-2 {
-        background: colors.$green;
-    }
 }

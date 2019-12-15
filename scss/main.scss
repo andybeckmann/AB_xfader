@@ -1,5 +1,21 @@
+// AB_colors
+@use 'AB_colors' as colors;
+
 // AB_xfader
 @use 'components/AB_xfader';
 
 // Global styles
 @use 'global';
+
+// Demo styles
+#slide-0 {
+    background: colors.$purple;
+}
+
+#slide-1 {
+    background: colors.$blue;
+}
+
+#slide-2 {
+    background: colors.$green;
+}
