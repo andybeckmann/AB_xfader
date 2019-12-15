@@ -1,9 +1,9 @@
 /**
- * AB_colors.scss v1.0.0
- * https://github.com/andybeckmann/AB_colors/scss/components/AB_colors.scss
+ * AB_colors.scss
+ * https://github.com/andybeckmann/AB_colors/blob/master/scss/components/AB_colors.scss
  */
 /**
- * AB_xfader.scss v1.1.0
+ * AB_xfader.scss
  * https://github.com/andybeckmann/AB_xfader/blob/master/scss/components/AB_xfader.scss
  */
 .xfader {
@@ -35,15 +35,6 @@
 .xfader .currentFade {
   opacity: 1;
 }
-.xfader #slide-0 {
-  background: #b10dc9;
-}
-.xfader #slide-1 {
-  background: #0074d9;
-}
-.xfader #slide-2 {
-  background: #2ecc40;
-}
 
 * {
   box-sizing: border-box;
@@ -58,4 +49,16 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+#slide-0 {
+  background: #b10dc9;
+}
+
+#slide-1 {
+  background: #0074d9;
+}
+
+#slide-2 {
+  background: #2ecc40;
 }
