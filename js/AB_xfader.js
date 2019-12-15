@@ -1,5 +1,5 @@
 /**
- * AB_xfader.js v1.0.0
+ * AB_xfader.js
  * https://github.com/andybeckmann/AB_xfader/blob/master/js/AB_xfader.js
  */
 
