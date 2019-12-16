@@ -1,14 +1,24 @@
 /**
  * AB_xfader
  * version: 1.0.0
+ * 
+ * xfader() uses setInterval to add and remove classes to list items
+ *
+ * @param {number} delay - Time before transition in seconds
  */
 
-(function() {
-    // Delay set in seconds
-    var delay = 10;
+function xfader(delay) {
+
+    if (delay > 0) {
+        // Set custom delay in seconds
+        var transitionDelay = delay;
+    } else {
+        // Set default value of 10 seconds
+        var transitionDelay = 10;
+    }
 
     // Set fader variables
-    var transitionTime = delay * 1000;
+    var transitionTime = transitionDelay * 1000;
         currentImageNumber = 0;
         itemCount = document.getElementsByClassName('item').length;
 
@@ -36,7 +46,7 @@
         fadeIn(element, 'currentFade');
     }
      
-    // Function: addClass   
+    // Function: fadeIn   
     function fadeIn(element, name) {
 
         // Set classList from element
@@ -58,4 +68,4 @@
         // Remove class from list
         element.className = classList.replace(' ' + name, '');
     }
-})();
+};
