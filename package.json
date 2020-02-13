@@ -1,14 +1,4 @@
 {
-  "name": "AB_xfader",
-  "version": "1.0.0",
-  "description": "Background image crossfader using JavaScript",
-  "author": {
-    "name": "Andy Beckmann",
-    "email": "contact@andybeckmann.com",
-    "url": "https://www.andybeckmann.com"
-  },
-  "repository": "github:andybeckmann/AB_xfader",
-  "license": "MIT",
   "private": true,
   "devDependencies": {
     "grunt": "*",
