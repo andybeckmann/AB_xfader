@@ -9,17 +9,19 @@
 
 function xfader(delay) {
 
+    var transitionDelay = 0;
+
     if (delay > 0) {
         // Set custom delay in seconds
-        var transitionDelay = delay;
+        transitionDelay = delay;
     } else {
         // Set default value of 10 seconds
-        var transitionDelay = 10;
+        transitionDelay = 10;
     }
 
     // Set fader variables
-    var transitionTime = transitionDelay * 1000;
-        currentImageNumber = 0;
+    var transitionTime = transitionDelay * 1000,
+        currentImageNumber = 0,
         itemCount = document.getElementsByClassName('item').length;
 
     // Run nextImage() after transitionTime
@@ -68,4 +70,4 @@ function xfader(delay) {
         // Remove class from list
         element.className = classList.replace(' ' + name, '');
     }
-};
+}
