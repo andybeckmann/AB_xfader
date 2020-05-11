@@ -19,7 +19,7 @@ function xfader(delay) {
 
     var transitionTime = transitionDelay * 1000,
         currentImageNumber = 0,
-        itemCount = document.getElementsByClassName('item').length;
+        itemCount = document.getElementsByClassName('xfader-item').length;
 
     var faderTransition = setInterval(fader, transitionTime);
 
