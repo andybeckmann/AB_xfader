@@ -1,6 +1,3 @@
-// AB_colors
-@use 'components/AB_colors' as colors;
-
 // AB_xfader
 @use 'components/AB_xfader';
 
@@ -9,13 +6,13 @@
 
 // Demo styles
 #slide-0 {
-    background: colors.$purple;
+    background: #111;
 }
 
 #slide-1 {
-    background: colors.$blue;
+    background: #222;
 }
 
 #slide-2 {
-    background: colors.$green;
+    background: #333;
 }

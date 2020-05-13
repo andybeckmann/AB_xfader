@@ -1,8 +1,4 @@
 /**
- * AB_colors
- * version: 1.0.0
- */
-/**
  * AB_xfader
  * version: 1.0.0
  */
@@ -52,13 +48,13 @@ img {
 }
 
 #slide-0 {
-  background: #b10dc9;
+  background: #111;
 }
 
 #slide-1 {
-  background: #0074d9;
+  background: #222;
 }
 
 #slide-2 {
-  background: #2ecc40;
+  background: #333;
 }
